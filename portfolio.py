@@ -20,7 +20,7 @@ class Portfolio:
         self. stocks = []   
 
     def buy (self, name, shares, price):
-        self.stocks.append(dict{"name" = name, "shares" = shares, "price" = price})
+        self.stocks.append(dict("name" = name, "shares" = shares, "price" = price))
 
     def cost (self):
         sum = 0
