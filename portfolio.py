@@ -17,10 +17,10 @@ Consider that to implement the cost method, you'll need to be storing the purcha
 class Portfolio:
     
     def __init__(self, stocks):
-        self. stocks = []
+        self. stocks = []   
 
     def buy (self, name, shares, price):
-        self.stocks.append(dict("name" = name, "shares" = shares, "price" = price))
+        self.stocks.append(dict{"name" = name, "shares" = shares, "price" = price})
 
     def cost (self):
         sum = 0
